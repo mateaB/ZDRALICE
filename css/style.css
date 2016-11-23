@@ -1,0 +1,298 @@
+html,
+body{
+	width: 100%;
+  	height: 100%;
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	margin: 0;
+	background-size: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
+		/*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font-weight: 700;*/
+    }
+
+header{
+	background-image:  url('../img/zdralice.jpg');
+  	background-size: cover;
+  	margin-left:300px;
+  	margin-right: 20px;
+  	width: 50%;
+	height: 100%; /* za media */
+    /*
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 40px 10px;
+    background-color: #ffffff; */}
+
+
+header .header-content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+
+header .header-content .header-content-inner h1{
+	padding-top: 0px;
+	font-weight: 700;
+	color: #33CC33;
+	font-size: 50px;
+}
+
+header .header-content .header-content-inner hr{
+	padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    border-color: #33CC33;
+    border-width: 3px;
+}
+
+header .header-content .header-content-inner p {
+    margin-top: 170px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+*/
+
+section {
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+
+.navigacija{
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+
+
+
+#o_nama{
+	background-color: #990000;
+	color: #ffffff;
+	display: block;
+	vertical-align: center;
+	height: 450px;
+	font: bold;
+}
+
+.poravnanje{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-transform: none;
+	vertical-align: center;
+}
+
+#o_nama img{
+	margin-top: 65px;
+	margin-bottom: 70px;
+	padding-left: 50px;
+}
+
+#o_nama .gumb{
+	color: #ffffff;
+	margin-bottom: 15px;
+	border: solid 2px #ffffff;
+    font-size: 15px;
+    float:  bottom left;
+/*    background: 0 0;
+*/}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+#događaji{
+	margin-top: 30px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+#događaji .gumb-2{
+  border: 1px solid green;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.gumb-2:visited {
+	border: solid 3px #FFFF00;
+    color: #33CC33;
+    background-color: #FFFF00;
+    top: 10px;
+}
+
+.gumb-2:focus,
+.gumb-2:active,
+.gumb-2.active {
+    border: solid 30px green;
+    color: #33CC33;
+    background: transparent;
+}
+
+
+#slike{
+	position: relative;
+	display: inline-block; 
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+#kontakt {
+	background-color:#ffffff;
+	color: #990000;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+#kontakt h3{
+	font-weight: bold;
+}
+
+.zavrsni{  
+	color: #ffffff;
+	text-align: center;
+	position: relative;    
+    background-color: #990000;
+    padding: 10px 0;
+}
+
+#galerija{
+	background-size: cover;
+	display: block;
+	position: relative;
+	padding: 30px 0px 0px 0px;
+}
+
+#galerija .col-sm-3{
+	padding: 0px;
+}
+
+
+.u_sredini{
+  margin-bottom: 100px;
+  margin-top: 120px;
+  padding: 100px;
+}
+
+table {
+	width: 500px;
+	height: 300px;
+	margin-right: 170px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 0px solid black;
+}
+
+td {
+	border: 10px solid black;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	max-height: 250px;
+	max-width: 250px;
+}
+
+.field-red {
+	width: 170px;
+	height: 170px;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+-------
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: #990000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
